@@ -1,0 +1,13 @@
+name: cancershiny
+title: cancershiny
+username:
+account: estherchang10
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 547101
+bundleId: 1676820
+url: https://estherchang10.shinyapps.io/cancershiny/
+when: 1541091144.16059
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: CancerByAge.csv|cancershinycode.R
