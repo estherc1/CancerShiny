@@ -23,7 +23,7 @@ shinyServer(
         cancdata %>%
           filter(year %in% c(input$year[1]:input$year[2]),site %in% input$site, race %in% input$race, age %in% input$age) %>%
           summarise(paste(round(sum(count, na.rm = TRUE)/sum(population, na.rm = TRUE)*100000,2))), 
-        "Rate per 100,000", icon = icon("bolt"),
+        "Incidence Rate per 100,000", icon = icon("bolt"),
         color = "yellow"
       )
     })
